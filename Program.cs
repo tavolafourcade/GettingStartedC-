@@ -1,12 +1,14 @@
 ﻿using System;
+// using WeatherUtilities = MyUtilities.WeatherUtilities;
+using MyUtilities;
 
 namespace Application1
 {
-    class Program
+    class CheckComfort
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WeatherUtilities.Report("Bologna", 23, 65); 
         }
     }
 }
