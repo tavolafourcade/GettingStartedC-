@@ -12,8 +12,7 @@ namespace MyUtilities
 
         static float CelsiusToFahrenheit(float temperatureCelsius)
         {
-            var temperatureFahrenheit = temperatureCelsius * 1.8f + 32;
-            return temperatureFahrenheit;
+            return temperatureCelsius * 1.8f + 32;
         }
 
         static float ComfortIndex(float temperatureFahrenheit, float humidityPercent)
